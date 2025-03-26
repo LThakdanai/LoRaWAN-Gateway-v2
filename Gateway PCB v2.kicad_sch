@@ -1153,6 +1153,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4885,107 +5011,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND2"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -5948,16 +5973,6 @@
 			(type default)
 		)
 		(uuid "00375537-b0b0-4611-9e3c-0558faa2d52f")
-	)
-	(wire
-		(pts
-			(xy 394.97 217.17) (xy 394.97 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "005c7fb0-33ec-4b22-a0a2-387c8fb11d6d")
 	)
 	(wire
 		(pts
@@ -8061,16 +8076,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 217.17) (xy 389.89 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad5e175d-33f1-489d-ac17-8ecfc75b275b")
-	)
-	(wire
-		(pts
 			(xy 417.83 92.71) (xy 417.83 91.44)
 		)
 		(stroke
@@ -9351,16 +9356,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 217.17) (xy 389.89 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5bb250a-aa30-46d0-9821-c9be9c9dd321")
-	)
-	(wire
-		(pts
 			(xy 85.09 309.88) (xy 88.9 309.88)
 		)
 		(stroke
@@ -9508,6 +9503,16 @@
 			(type default)
 		)
 		(uuid "ffb303ea-11d1-43b8-9f0d-45c18e1647de")
+	)
+	(label "Passive"
+		(at 532.13 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f316c8c1-9126-473a-b0dd-b9425103bda0")
 	)
 	(global_label "PA_ON"
 		(shape input)
@@ -11298,6 +11303,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 524.51 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06480520-476c-47a8-871f-58c9dc910553")
+		(property "Reference" "#PWR028"
+			(at 518.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 520.7 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 524.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 524.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "214cfe9d-b98f-42b0-8575-c5f59a4d1ee2")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 85.09 304.8 0)
 		(unit 1)
@@ -12313,6 +12385,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 529.59 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dfbc662-6a3f-4647-824d-757f9b12bb5e")
+		(property "Reference" "#PWR075"
+			(at 535.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 533.4 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 529.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 529.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b6d9d84-c8be-4a79-bdc9-df16cb50fb1f")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 530.86 99.06 0)
 		(unit 1)
@@ -12458,6 +12597,74 @@
 			(project ""
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 527.05 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fa65ea7-5460-4b48-aab0-f018bbb6ffd0")
+		(property "Reference" "NT3"
+			(at 527.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 527.05 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 527.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 527.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8da39be-3424-4832-8f42-a8ee64a48268")
+		)
+		(pin "1"
+			(uuid "901ab733-7573-4151-9a9c-28d4fa37f505")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -13208,72 +13415,6 @@
 			(project "lora_gateway"
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 394.97 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3080a308-afc4-485a-afca-fc4168e873b5")
-		(property "Reference" "#PWR028"
-			(at 394.97 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 394.97 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 394.97 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 394.97 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 394.97 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "810871ff-08d6-4781-ac6b-d3bb1236aecb")
-		)
-		(instances
-			(project ""
-				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -14093,6 +14234,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 527.05 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd06a54-d999-4da2-8772-9890ba1ecc3b")
+		(property "Reference" "NT5"
+			(at 527.05 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 527.05 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 527.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 527.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83fdc8b1-de4d-4697-ac38-7051a77792f8")
+		)
+		(pin "1"
+			(uuid "c4553003-97e1-4486-b83a-ddd66ba55f01")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 327.66 83.82 90)
 		(unit 1)
@@ -14369,6 +14578,74 @@
 			(project "lora_gateway"
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "FL3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 527.05 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42c565d8-3d80-4f98-8d78-a516e012dc9e")
+		(property "Reference" "NT1"
+			(at 527.05 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 527.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 527.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 527.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e44eca5-a2bd-4317-b7a6-05794d252411")
+		)
+		(pin "1"
+			(uuid "3c340286-446d-44dc-b2a8-7b7f98b74f0c")
+		)
+		(instances
+			(project ""
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -15230,6 +15507,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 527.05 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "517fc47d-b0fe-4169-bb8d-285bd689f23e")
+		(property "Reference" "NT2"
+			(at 527.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 527.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 527.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 527.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f5498ed-5a7b-4e4d-86ab-76a850971a77")
+		)
+		(pin "1"
+			(uuid "57d4196e-79a4-447b-8246-f33ff6e489e3")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 66.04 313.69 0)
 		(unit 1)
@@ -15571,6 +15916,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 524.51 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57828552-79db-491e-8f1c-68ae4dab1c19")
+		(property "Reference" "#PWR072"
+			(at 518.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 520.7 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 524.51 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 524.51 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "988c8923-446e-4958-8570-e4c2d64c3e7f")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 304.8 213.36 90)
 		(unit 1)
@@ -15839,6 +16251,73 @@
 			(project "lora_gateway"
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 529.59 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e8904da-bd04-48ab-9ee7-016adff556e6")
+		(property "Reference" "#PWR073"
+			(at 535.94 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 533.4 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 529.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 529.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "787ec566-71ab-4825-b22f-a192e914b535")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -17602,6 +18081,73 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 529.59 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f34410a-3041-4104-9de8-cbad87f92efd")
+		(property "Reference" "#PWR071"
+			(at 535.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 533.4 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 529.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 529.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d7509cd-2150-42a7-b580-8cbbcc599d2c")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 224.79 378.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18253,6 +18799,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 527.05 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "894cbaf3-11e7-4057-8838-080a1c574bba")
+		(property "Reference" "NT4"
+			(at 527.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 527.05 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 527.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 527.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6540f0a8-7e9c-4456-9af4-d89020f3d536")
+		)
+		(pin "1"
+			(uuid "a646e5fd-b3d5-4158-a658-277a754fe524")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "NT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 508 64.77 0)
 		(unit 1)
@@ -18798,7 +19412,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 389.89 231.14 0)
+		(at 529.59 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18807,7 +19421,7 @@
 		(fields_autoplaced yes)
 		(uuid "9988e550-3a62-4a3d-a9a0-25c3b1c1d3c3")
 		(property "Reference" "#PWR021"
-			(at 389.89 237.49 0)
+			(at 535.94 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18816,15 +19430,16 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 389.89 236.22 0)
+			(at 533.4 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 389.89 231.14 0)
+			(at 529.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18833,7 +19448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 231.14 0)
+			(at 529.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18842,7 +19457,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 389.89 231.14 0)
+			(at 529.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18998,6 +19613,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 524.51 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0c56d43-f917-46c0-a17c-97834b5b67f6")
+		(property "Reference" "#PWR074"
+			(at 518.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 520.7 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 524.51 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 524.51 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e912ea30-9134-496c-847c-95e1995e7fde")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Oscillator:TG2520SMN-xx.xxxxxxMhz-xxxxNM")
 		(at 83.82 270.51 0)
 		(unit 1)
@@ -19133,6 +19815,73 @@
 			(project "lora_gateway"
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 529.59 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a745a64d-7c65-42ff-aa17-ee6a1dd5f8f9")
+		(property "Reference" "#PWR065"
+			(at 535.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 533.4 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 529.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 529.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a4b0968-7b32-4b30-a366-6d9248a4aa8b")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -19613,6 +20362,73 @@
 			(project "lora_gateway"
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 524.51 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7cde9c7-4bf4-414f-8c70-ebd633e10f1b")
+		(property "Reference" "#PWR056"
+			(at 518.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 520.7 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 524.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 524.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbf397b7-92ec-476d-b41e-b6afc20ab013")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -22583,6 +23399,73 @@
 			(project "lora_gateway"
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 524.51 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efe800d4-5d52-47d5-a690-8d84b8895e5b")
+		(property "Reference" "#PWR070"
+			(at 518.16 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 520.7 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 524.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 524.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f2fbf02-e855-46ad-97e8-af1a86c8645a")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
