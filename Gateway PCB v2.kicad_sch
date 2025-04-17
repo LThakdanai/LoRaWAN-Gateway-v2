@@ -5905,10 +5905,6 @@
 		(uuid "5b882f90-1be2-49d3-acda-2435a0e6c885")
 	)
 	(no_connect
-		(at 187.96 383.54)
-		(uuid "5c7464b0-072c-45b1-a5bb-15ce014da22d")
-	)
-	(no_connect
 		(at 284.48 179.07)
 		(uuid "6cce2ba5-a6f6-4085-8e33-035e9021b34f")
 	)
@@ -6133,6 +6129,16 @@
 			(type default)
 		)
 		(uuid "0bebacc0-b8a4-49c7-b43c-1328f374cd37")
+	)
+	(wire
+		(pts
+			(xy 170.18 378.46) (xy 175.26 378.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4d1308-d58a-4f79-a3cd-03a726c16d7c")
 	)
 	(wire
 		(pts
@@ -8446,6 +8452,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 384.81) (xy 189.23 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c023342a-8745-4a56-b681-def713e0a34f")
+	)
+	(wire
+		(pts
 			(xy 82.55 351.79) (xy 86.36 351.79)
 		)
 		(stroke
@@ -9106,6 +9122,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 381) (xy 175.26 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69faf44-c813-4018-9ad7-efcd89d3a4ee")
+	)
+	(wire
+		(pts
 			(xy 284.48 95.25) (xy 307.34 95.25)
 		)
 		(stroke
@@ -9436,6 +9462,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 383.54) (xy 187.96 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb52653b-ad5b-4032-a9eb-22e160d6b560")
+	)
+	(wire
+		(pts
 			(xy 252.73 186.69) (xy 256.54 186.69)
 		)
 		(stroke
@@ -9505,6 +9541,16 @@
 		(uuid "ffb303ea-11d1-43b8-9f0d-45c18e1647de")
 	)
 	(label "Passive"
+		(at 532.13 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1551c99a-523a-4103-9a64-621a5ce9d591")
+	)
+	(label "Passive"
 		(at 532.13 140.97 0)
 		(effects
 			(font
@@ -9513,6 +9559,16 @@
 			(justify left bottom)
 		)
 		(uuid "f316c8c1-9126-473a-b0dd-b9425103bda0")
+	)
+	(label "Passive"
+		(at 533.4 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f82db135-6795-4b7d-b1e5-dd36b2ef2e77")
 	)
 	(global_label "PA_ON"
 		(shape input)
@@ -9800,6 +9856,28 @@
 			)
 		)
 	)
+	(global_label "EX_HOST_SCK"
+		(shape input)
+		(at 170.18 378.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17c3f378-c796-486f-8e57-e979ce295719")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.3135 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD_RF"
 		(shape input)
 		(at 228.6 81.28 180)
@@ -9956,22 +10034,22 @@
 	)
 	(global_label "EX_HOST_RESET"
 		(shape output)
-		(at 175.26 381 180)
+		(at 187.96 381 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2ef2872e-651b-4cfb-8012-6078b7be2319")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.3979 381 0)
+			(at 205.8221 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10286,7 +10364,7 @@
 	)
 	(global_label "EX_HOST_MISO"
 		(shape output)
-		(at 175.26 378.46 180)
+		(at 170.18 381 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10296,7 +10374,7 @@
 		)
 		(uuid "5af3a3ab-f60b-4e01-9f2a-44cd98f464a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.5468 378.46 0)
+			(at 153.4668 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,28 +10595,6 @@
 		(uuid "7d476160-be01-423a-878d-342a87d3b1d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.197 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EX_HOST_SCK"
-		(shape input)
-		(at 187.96 381 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82befc21-ae3e-4f2a-bfe1-fbeba20a455f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.8265 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11834,6 +11890,74 @@
 			(project "lora_gateway"
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 528.32 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1224bd52-d27d-4c53-9eb9-0d702056339a")
+		(property "Reference" "NT7"
+			(at 528.32 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 528.32 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 528.32 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 528.32 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 528.32 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "112af028-ae11-491a-8a28-e8a85cd34304")
+		)
+		(pin "1"
+			(uuid "c4254e45-9833-43d3-937e-518c9626119e")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "NT7")
 					(unit 1)
 				)
 			)
@@ -15225,6 +15349,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 529.59 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b17af31-2ff5-4d0f-9623-ae6e86fede56")
+		(property "Reference" "#PWR078"
+			(at 535.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 533.4 198.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 529.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 529.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec086368-f562-4429-b5f0-cdd515cf0b5d")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 486.41 36.83 90)
 		(unit 1)
@@ -15319,7 +15510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 180.34 381 0)
 			(effects
 				(font
@@ -18011,6 +18202,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 189.23 384.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d22eae2-41f0-494e-bc79-3f8e951e3bb4")
+		(property "Reference" "#PWR076"
+			(at 189.23 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91bb4828-cf92-42b7-bb86-30b4f3c42bf0")
+		)
+		(instances
+			(project ""
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 74.93 355.6 0)
 		(unit 1)
@@ -19888,6 +20145,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 530.86 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab8b5f25-96e4-4115-9890-618d0a3ecfa5")
+		(property "Reference" "#PWR080"
+			(at 537.21 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 534.67 213.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 530.86 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 530.86 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 530.86 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2022681-7512-4c67-8814-a182ee12dc79")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 242.57 309.88 180)
 		(unit 1)
@@ -21583,6 +21907,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 524.51 198.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3585394-242d-4a4f-bbec-d89f4dbda719")
+		(property "Reference" "#PWR077"
+			(at 518.16 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 520.7 198.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 524.51 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 524.51 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 524.51 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91bfc8ed-4cf7-49cd-9228-1698c22183cc")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 143.51 96.52 0)
 		(unit 1)
@@ -21983,6 +22374,73 @@
 			(project "lora_gateway"
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "PL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 525.78 213.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db8d272b-fb6a-449d-98ee-326dbbc071d5")
+		(property "Reference" "#PWR079"
+			(at 519.43 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 521.97 213.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 525.78 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 525.78 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 525.78 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e861a587-91d2-44c5-a533-107fa4421602")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -22790,6 +23248,74 @@
 			(project "lora_gateway"
 				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 527.05 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9821180-41d7-4312-b72a-a96aec3d354c")
+		(property "Reference" "NT6"
+			(at 527.05 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 527.05 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 527.05 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 527.05 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e750af7-118e-4d68-8f44-9614cca819ec")
+		)
+		(pin "1"
+			(uuid "395a7792-c50b-4d7f-ae55-7f7f33b2ba88")
+		)
+		(instances
+			(project "Gateway PCB v2"
+				(path "/3d6c7bcf-e42c-4747-acbc-b9f809b2c591"
+					(reference "NT6")
 					(unit 1)
 				)
 			)
