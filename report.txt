@@ -1,0 +1,13 @@
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-F_Cu.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-In1_Cu_Ground.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-In2_Cu_Power.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-B_Cu.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-F_Paste.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-B_Paste.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-F_Silkscreen.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-B_Silkscreen.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-F_Mask.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-B_Mask.gbr'.
+Plotted to '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-Edge_Cuts.gbr'.
+Created Gerber job file '/media/thakdanai/Volume/KMUTT/Y4S2/Senior Thesis /LoRaWAN-Gateway-v2/Gerber/Gateway PCB v2-job.gbrjob'.
+Info: Done.
