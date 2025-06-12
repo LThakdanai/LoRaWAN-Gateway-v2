@@ -2,7 +2,7 @@
 ---------------------------------------------------------------------------------------- 
 This github is part of LoRaWAN Gateway Thesis as Institute of Field Robotics (FIBO)
 ## Schamatic Design
-
+In this part please check on file name: output.pdf
 
 ## Each Layer of PCB
 First Layer:
